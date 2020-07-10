@@ -1,7 +1,6 @@
 ## Libraries
 library(dplyr)    ## for data wrangling
 library(ggplot2)  ## for plotting
-#library(MCMCpack) ## for Dirichlet distribution (constrained budget)
 library(tidyr)    ## for function crossing()
 
 ## Load functions
@@ -31,8 +30,7 @@ save_parameters = TRUE
 datadir = '~/EmergentNeutrality/Data/20200122/'
 
 ## Indicator variable; 1 if running on High Power Computing cluster, 0 if running on my PC.
-hpcc = as.numeric((nodename <-
-                     as.character(Sys.info()['nodename'])) != 'RAF-PC')
+hpcc = as.numeric((nodename <- as.character(Sys.info()['nodename'])) != 'RAF-PC')
 
 ## Read scenario from either input on command line (if running on hpcc)
 ## or chosen scenario listed in the line below (if running on PC)
