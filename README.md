@@ -12,5 +12,7 @@ This GutHub repository lists all R scripts used to produce the data analysed in 
 
 The *Data* folder includes partial data used in the analysis, namely consumer abundances in the Generalist scenario (please see file *Metadata.docx* for description of the data). 
 
+The *R_Functions* folder lists R code for functions used in *AnalysisGeneralists.R*, *AnalysisSpecialists.R*, and *AnalysisExtinctionTimes.R*.
+
 _Note_: For access to the entire data set generated for this paper, please contact me at rafael.dandrea@stonybrook.edu. All data used in th paper can be generated with SimulationScript.R.
 
