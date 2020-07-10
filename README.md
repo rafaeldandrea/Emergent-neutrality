@@ -1,6 +1,6 @@
 # Emergent-neutrality
 
-This GutHub repository lists all R scripts used to produce the data analysed in D'Andrea et al. 2020 "Emergent neutrality in consumer-resource dynamics", acceptd for publication in PLoS Computational Biology.
+This GutHub repository lists all R scripts used to produce the data analysed in D'Andrea et al. 2020 "Emergent neutrality in consumer-resource dynamics", accepted for publication in PLoS Computational Biology.
 
 *SimulationScript.R*: numerically simulates the stochastic niche dynamics model described in the paper. Directory paths must be changed. 
 
